@@ -6,3 +6,6 @@ class CurrentAccount(Account):
 
     def withdraw(self, amount):
         super().withdraw(amount)
+
+    def deposit(Self, amount):
+        super().deposit(amount)
