@@ -7,10 +7,10 @@ st.set_page_config(page_title='BANK APP', layout='wide')
 
 
 st.markdown("<h1 style='text-align: center; color: #1f4e79;'>Welcome to Vesting Finance</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: gray;'>Finance Power At your Finger Tips</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: gray;'>Finance Power At Your Finger Tips</h4>", unsafe_allow_html=True)
 
 
-# st.image("your_logo.png", width=100)
+st.image("vesting-banner.png")
 
 
 
