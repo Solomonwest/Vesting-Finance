@@ -16,15 +16,15 @@ if  submit and operations == 'withdraw':
     with st.spinner(' Processing... '): 
         if amount <= 10000 :
             savings.withdraw(amount)
-            st.write(f"your balance is {savings.balance}")
+            st.success(f"your balance is {savings.balance}")
         elif amount > savings.balance:
-            st.write('Insufficient funds')
+            st.error('Insufficient funds')
         else:
-            st.write("sorry, you've exceeded your limit.")
+            st.error("sorry, you've exceeded your limit.")
 
 
 
 if  submit and operations == 'deposit':
     with st.spinner(' Processing... '): 
             savings.deposit(amount)
-            st.write(f"your balance is {savings.balance}")
+            st.success(f"your balance is {savings.balance}")
